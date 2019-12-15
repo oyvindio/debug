@@ -19,6 +19,7 @@ COMMANDS=(
     tcpdump
     telnet
     openssl
+    kubectl
 )
 
 type "${COMMANDS[@]}"

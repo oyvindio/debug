@@ -4,4 +4,5 @@ apt-get install --no-install-recommends -y curl vim nmap traceroute tcptracerout
 apt-get clean -y && \
 apt-get autoclean -y && \
 apt-get autoremove -y
+ADD run-tests /run-tests
 ENTRYPOINT ["tail", "-f", "/dev/null"]
