@@ -1,3 +1,3 @@
 sut:
-  build: Dockerfile
-  command: /test
+  build: .
+  entrypoint: /run-tests
