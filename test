@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+COMMANDS=(
+    curl
+    vim
+    nmap
+    ip
+    traceroute
+    tcptraceroute
+    strace
+    dig
+    host
+    socat
+    nc
+    mtr
+    iperf
+    tcpdump
+    telnet
+    openssl
+)
+
+type "${COMMANDS[@]}"
