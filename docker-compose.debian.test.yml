@@ -1,6 +1,7 @@
 version: "3.7"
 services:
   sut:
+    image: oyvindio/debug:latest
     build:
       context: .
       dockerfile: Dockerfile
