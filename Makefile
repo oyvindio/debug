@@ -2,7 +2,7 @@
 
 CONTAINER_NAME = debug
 IMAGE_NAME = oyvindio/${CONTAINER_NAME}:latest
-ALPINE_IMAGE_NAME = oyvindio/${CONTAINER_NAME}:alpine-latest
+ALPINE_IMAGE_NAME = oyvindio/${CONTAINER_NAME}:latest-alpine
 
 all: build build-alpine
 
